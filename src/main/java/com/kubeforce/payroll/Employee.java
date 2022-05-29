@@ -17,7 +17,7 @@ public class Employee {
 
         private String name;
 
-        private int employeeIdentifier;
+        private int employeeid;
 
         private String email;
 
@@ -26,7 +26,7 @@ public class Employee {
     public Employee(String name, int employeeIdentifier, String email, String salary)
     {
         this.name = name;
-        this.employeeIdentifier = employeeIdentifier;
+        this.employeeid = employeeIdentifier;
         this.email = email;
         this.salary = salary;
     }
@@ -48,12 +48,12 @@ public class Employee {
 
         public int getEmployeeIdentifier ()
         {
-            return employeeIdentifier;
+            return employeeid;
         }
 
         public void setCustomerIdentifier (int employeeIdentifier)
         {
-            this.employeeIdentifier = employeeIdentifier;
+            this.employeeid = employeeIdentifier;
         }
 
         public String getEmail ()
